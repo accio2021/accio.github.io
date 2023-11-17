@@ -21,6 +21,8 @@ body{
 nav{
     display: flex;
     margin-top: 0px;
+}
+#sidemenu{
     align-items: right;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -31,6 +33,8 @@ nav{
 }
 .logo{
     width: 140px;
+    align-items: left;
+    margin-left: 0px;
 }
 nav ul li{
     display: inline-block;
@@ -92,20 +96,17 @@ title h1{
     display: flex;
     justify-content: space-between;
 }
-.about-col{
-    flex-basis: 80%;
+.about{
     display: flex;
-    align-items: center;
 }
 .subtitle{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
 }
-.about-col p{
+.about p{
     line-height: 1.5;
     word-spacing: 0.5;
-    padding-right: 50px;
     text-align: justify;
 }
 .tabTitles{
@@ -161,8 +162,9 @@ title h1{
     display: none;
 }
 .tabContents.activeTab{
-    display: block;
+    display: flex;
 }
+
 #peopleOfAccio{
     padding: 30px 0;
 }
@@ -203,7 +205,9 @@ title h1{
     font-size: 12px;
     display: inline-block;
 }
+
 .year{
+    margin-top: 10px;
     line-height: 1.5px;
     font-size: 32px;
     text-decoration: none;
