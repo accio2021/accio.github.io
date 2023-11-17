@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 10px 10px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -35,7 +35,6 @@ nav ul li{
     display: inline-block;
     list-style: none;
     padding-left: 100px;
-    margin: 10px 10px;
 }
 nav ul li a{
     color: #fff;
@@ -110,10 +109,8 @@ title h1{
 }
 .tabTitles{
     display: flex;
-    margin: 20px 0 40px;
 }
 .tabLinks{
-    margin-right: 50px;
     font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
@@ -134,21 +131,17 @@ title h1{
     width: 50%;
 }
 .tabContents h1{
-    margin: 10px 0;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
 }
 .tabContents p{
-    margin: 10px 0;
-    margin-left: 10px;
     font-size: 16px;
     line-height: 1.5;
     word-spacing: 0.5;
     text-align: justify;
 }
 .tabContents h1{
-    margin: 10px;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -156,8 +149,6 @@ title h1{
 }
 .tabContents ul li{
     list-style: none;
-    margin: 10px 0;
-    margin-left: 10px;
 }
 .tabContents ul li span{
     color: #89CFF0;
@@ -182,8 +173,8 @@ title h1{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 40px;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin-top: 40px;
+    margin-right: 40px;
 }
 .peopleList div{
     background: #262626;
@@ -197,8 +188,7 @@ title h1{
 .peopleList div h2{
     font-size: 40px;
     font-weight: bolder;
-    margin-bottom: 15px;
-    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .peopleList div h2 span{
     padding-left: 20px;
@@ -210,19 +200,15 @@ title h1{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    margin-top: 20px;
     display: inline-block;
 }
 .year{
     line-height: 1.5px;
-    margin-bottom: 10px;
     font-size: 32px;
     text-decoration: none;
     position: relative;
 }
 .project h3{
-    margin-left: 20px;
-    margin-right: 80px;
     font-size: 30px;
     color: #fff;
     background-color: #89CFF0;
@@ -232,16 +218,12 @@ title h1{
     align-items: center;
 }
 .project h4{
-    margin-left: 20px;
-    margin-right: 80px;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .project p{
-    margin: 20px 0;
-    margin-right: 70px;
     font-size: 16px;
     line-height: 1.5;
     word-spacing: 0.5;
@@ -260,12 +242,10 @@ title h1{
     flex-basis: 60%;
 }
 .contactLeft p{
-    margin-top: 30px;
     font-size: 25px;
 }
 .contactLeft p i{
     color: #89CFF0;
-    margin-right: 15px;
     font-size: 25px
 }
 .btn{
@@ -319,7 +299,7 @@ nav.fas{
     display: none;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 600px){
     nav i{
         display: block;
         position: fixed;
@@ -357,7 +337,7 @@ nav.fas{
     }
     
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 600px) {
     #crossIcon{
         display: none;
     }
