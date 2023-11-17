@@ -93,15 +93,7 @@ title h1{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
-    flex-basis: 35%;
-}
-.about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
-    margin: 10px;
-}
-.about-col-2{
+.about-col{
     flex-basis: 60%;
 }
 .subtitle{
@@ -109,7 +101,7 @@ title h1{
     font-weight: 600;
     color: #fff;
 }
-.about-col-2 p{
+.about-col p{
     line-height: 1.5;
     word-spacing: 0.5;
     padding-right: 50px;
