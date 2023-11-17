@@ -82,7 +82,7 @@ title h1{
 }
 
 #aboutUs {
-    margin-left: 50px;
+    margin-right: 50px;
     padding: 80px;
     color: #ababab;
     background: #121212;
@@ -180,7 +180,7 @@ title h1{
 .peopleList{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(500px, auto));
+    grid-template-rows: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 40px;
     margin-top: 50px;
     margin-right: 50px;
