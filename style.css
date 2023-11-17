@@ -9,7 +9,7 @@ body{
     color: #fff;
 }
 #header{
-    margin: 0px 0px;
+    margin: 0px -10px;
     width: 100%;
     height: 100vh;
     background-image: url(background.png);
@@ -27,7 +27,6 @@ nav{
 }
 #sidemenu{
     align-items: right;
-    justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
     margin-top: 5px
@@ -67,6 +66,8 @@ nav ul li a:hover::after{
     width: 100%;
     height: 100%;
     margin-top: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
     padding: 0;
     position: absolute;
     display: flex;
