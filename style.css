@@ -334,7 +334,7 @@ nav.fas{
     display: none;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 720px){
     nav i{
         display: block;
         position: fixed;
@@ -372,7 +372,7 @@ nav.fas{
     }
     
 }
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 720px) {
     #crossIcon{
         display: none;
     }
